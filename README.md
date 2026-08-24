@@ -56,11 +56,14 @@ Need to extract features from raw time series?                → ts-*-features 
 
 ## ✨ Author
 
-**Bionda Rozin** — PhD Student in Computer Science, DEMAC/UNESP
+**Bionda Rozin**
+
+PhD Student in Computer Science, DEMAC/UNESP
+
 `bionda.rozin@unesp.br`
 
 ---
 
 ## ✨ License
 
-Each repository carries its own license — check the individual repo before using it.
+Each repository carries its own license. Check the individual repo before using it.
