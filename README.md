@@ -38,7 +38,9 @@ Each package is kept in its own repository and its own Python environment on pur
 ## ✨ Choosing a package
 
 Need distances/similarity between series or ranked lists?     → tsdist
+
 Need to re-rank / refine distances unsupervised?              → scikit-pyudlf
+
 Need to extract features from raw time series?                → ts-*-features (soon)
 
 ---
