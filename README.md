@@ -12,9 +12,9 @@ A collection of small, focused Python packages for time series feature extractio
 
 ## ✨ Before anything else
 
-Most of these methods were written and tested with time series in mind — but the underlying math (distances, ranking, re-ranking) rarely cares what kind of data it's looking at. A lot of what's here works just as well on images, text embeddings, or any other vector-representable data. Don't let the name fool you.
+Most of these methods were written and tested with time series in mind, but the underlying math (distances, ranking, re-ranking) rarely cares what kind of data it's looking at. A lot of what's here works just as well on images, text embeddings, or any other vector-representable data. Don't let the name fool you.
 
-Each package is kept in its own repository and its own Python environment on purpose — dependencies like `sktime`, `aeon`, and `tslearn` don't always play well together, so isolation beats one giant fragile package.
+Each package is kept in its own repository and its own Python environment on purpose. Dependencies like `sktime`, `aeon`, and `tslearn` don't always play well together, so isolation beats one giant fragile package.
 
 ---
 
@@ -50,7 +50,7 @@ Need to extract features from raw time series?                → ts-*-features 
 - **One package, one job.** Each repo does a single thing well instead of one monolith trying to satisfy every dependency at once.
 - **Consistent API.** Where it makes sense, packages follow an sklearn-style `fit` / `transform` / `fit_transform` interface, so they compose naturally in pipelines.
 - **Isolated environments.** Conflicting dependencies (`sktime`, `aeon`, `tslearn`, etc.) are the reason these live in separate repos rather than separate modules of one package.
-- **Data-agnostic where possible.** Time series first, but built to not slam the door on other data types.
+- **Data-agnostic where possible.** Time series first, but built to admit other data types when possible.
 
 ---
 
