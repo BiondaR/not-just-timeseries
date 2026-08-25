@@ -32,6 +32,7 @@ Each package is kept in its own repository and its own Python environment on pur
 | Repo | Description | Python | Link |
 |---|---|:---:|:---:|
 | **ts-text-features** | Converts numeric time series into textual representations (SAX, SFA, ABBA, natural-language templates) and extracts numeric features from that text: BoW (word/char n-grams), TF-IDF, BERT, Word2Vec, BOSS, WEASEL | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-text-features) |
+| **ts-rocket-features** | sklearn-style wrapper around `sktime`'s ROCKET family (Rocket, MiniRocket, MultiRocket) for time series embedding extraction, univariate and multivariate | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-rocket-features) |
 | _coming more soon_ | | | |
 
 ---
@@ -41,7 +42,7 @@ Each package is kept in its own repository and its own Python environment on pur
 ```
 Need distances/similarity between series or ranked lists?     → tsdist
 Need to re-rank / refine distances unsupervised?              → scikit-pyudlf
-Need to extract features from raw time series?                → ts-*-features (soon)
+Need to extract features from raw time series?                → ts-*-features
 ```
 
 ---
