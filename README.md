@@ -31,7 +31,8 @@ Each package is kept in its own repository and its own Python environment on pur
 
 | Repo | Description | Python | Link |
 |---|---|:---:|:---:|
-| _coming soon_ | | | |
+| **ts-text-features** | Converts numeric time series into textual representations (SAX, SFA, ABBA, natural-language templates) and extracts numeric features from that text: BoW (word/char n-grams), TF-IDF, BERT, Word2Vec, BOSS, WEASEL | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-text-features) |
+| _coming more soon_ | | | |
 
 ---
 
