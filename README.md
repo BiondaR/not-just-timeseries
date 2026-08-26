@@ -33,6 +33,7 @@ Each package is kept in its own repository and its own Python environment on pur
 |---|---|:---:|:---:|
 | **ts-text-features** | Converts numeric time series into textual representations (SAX, SFA, ABBA, natural-language templates) and extracts numeric features from that text: BoW (word/char n-grams), TF-IDF, BERT, Word2Vec, BOSS, WEASEL | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-text-features) |
 | **ts-rocket-features** | sklearn-style wrapper around `sktime`'s ROCKET family (Rocket, MiniRocket, MultiRocket) for time series embedding extraction, univariate and multivariate | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-rocket-features) |
+| **ts-shape-features** | Shape-descriptor feature extraction for time series: PAA, shapelets (random/learned), DTW-prototype distances (k-means or RaDE/RaDE+/GRaCE leader selection), Beam Angle Statistics, Hydra convolutional-shapelet features | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-shape-features) |
 | _coming more soon_ | | | |
 
 ---
