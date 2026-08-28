@@ -36,6 +36,12 @@ Each package is kept in its own repository and its own Python environment on pur
 | **ts-shape-features** | Shape-descriptor feature extraction for time series: PAA, shapelets (random/learned), DTW-prototype distances (k-means or RaDE/RaDE+/GRaCE leader selection), Beam Angle Statistics, Hydra convolutional-shapelet features | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-shape-features) |
 | _coming more soon_ | | | |
 
+### Cleaning & Dimensionality Reduction
+
+| Repo | Description | Python | Link |
+|---|---|:---:|:---:|
+| **featreducer** | Unsupervised feature cleaning (imputation, low-variance and collinearity removal) and dimensionality reduction (PCA, UMAP, t-SNE, PaCMAP, PHATE, and more), agnostic to feature type | 3.9+ | [🔗 repo](https://github.com/BiondaR/featreducer) |
+
 ---
 
 ## ✨ Choosing a package
@@ -44,6 +50,7 @@ Each package is kept in its own repository and its own Python environment on pur
 Need distances/similarity between series or ranked lists?     → tsdist
 Need to re-rank / refine distances unsupervised?              → scikit-pyudlf
 Need to extract features from raw time series?                → ts-*-features
+Need to clean features or reduce dimensionality?              → featreducer
 ```
 
 ---
