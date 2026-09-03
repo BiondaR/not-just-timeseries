@@ -35,6 +35,7 @@ Each package is kept in its own repository and its own Python environment on pur
 | **ts-rocket-features** | sklearn-style wrapper around `sktime`'s ROCKET family (Rocket, MiniRocket, MultiRocket) for time series embedding extraction, univariate and multivariate | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-rocket-features) |
 | **ts-shape-features** | Shape-descriptor feature extraction for time series: PAA, shapelets (random/learned), DTW-prototype distances (k-means or RaDE/RaDE+/GRaCE leader selection), Beam Angle Statistics, Hydra convolutional-shapelet features | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-shape-features) |
 | **ts-stats-features** | Statistical, frequency-domain and nonlinear-dynamics feature extraction for time series: global statistics (catch22, tsfresh, tsfel), FFT/DWT, and entropy/nonlinear-dynamics descriptors (antropy, nolds, Hjorth), with native multivariate support | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-stats-features) |
+| **ts-laglama-features** | Zero-shot time series embeddings via Lag-Llama (LLaMA-style foundation model, probabilistic forecasting, univariate only), isolated in its own repo due to the upstream package's unmaintained, backtracking-prone pinned dependencies | 3.9–3.12 | [🔗 repo](https://github.com/BiondaR/ts-laglama-features) |
 | _coming more soon_ | | | |
 
 ### Cleaning & Dimensionality Reduction
