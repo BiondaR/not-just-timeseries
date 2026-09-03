@@ -37,6 +37,7 @@ Each package is kept in its own repository and its own Python environment on pur
 | **ts-stats-features** | Statistical, frequency-domain and nonlinear-dynamics feature extraction for time series: global statistics (catch22, tsfresh, tsfel), FFT/DWT, and entropy/nonlinear-dynamics descriptors (antropy, nolds, Hjorth), with native multivariate support | 3.9+ | [🔗 repo](https://github.com/BiondaR/ts-stats-features) |
 | **ts-laglama-features** | Zero-shot time series embeddings via Lag-Llama (LLaMA-style foundation model, probabilistic forecasting, univariate only), isolated in its own repo due to the upstream package's unmaintained, backtracking-prone pinned dependencies | 3.9–3.12 | [🔗 repo](https://github.com/BiondaR/ts-laglama-features) |
 | **ts-moment-features** | Zero-shot time series embeddings via MOMENT-1-large (AutonLab), kept in its own repo because `momentfm` pins `transformers`, `numpy`, and `huggingface-hub` to exact versions incompatible with `ts-foundation-features` | 3.9–3.11 | [🔗 repo](https://github.com/BiondaR/ts-moment-features) |
+| **ts-moirai-features** | Zero-shot time series embeddings via Moirai / Moirai-2 / Moirai-MoE (Salesforce, any-variate attention, native multivariate support), isolated in its own repo because `uni2ts` pulls in `jax` plus tightly-pinned `numpy`/`torch`/`scipy`/`gluonts` | 3.9–3.12 | [🔗 repo](https://github.com/BiondaR/ts-moirai-features) |
 | _coming more soon_ | | | |
 
 ### Cleaning & Dimensionality Reduction
